@@ -1,0 +1,157 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: outfit; */
+    /* background-color: hsl(0, 0%, 100%); */
+/* } */
+
+/* body{
+    background-color: hsl(212, 45%, 89%);
+    width: 1440px;
+} */
+/* .card{
+    width: 320px;
+    height: 500px;
+    border-radius: 20px; */
+    /* padding: 17px; */
+    /* padding: 17px 17px 0px 17px;
+    background-color: hsl(0, 0%, 100%);
+    margin: auto;
+    margin-top: 15%;
+} */
+/* .qr-img>img{
+    width: 288px;
+    height: 288px;
+    border-radius: 10px;
+}
+.qr-content{
+    font-size: 20px;
+    margin: auto;
+    margin-top: 30px;
+    width: 250px;
+    font-weight: 900;
+    color: hsl(218, 44%, 22%); */
+    /* padding: 0px 17px 17px 17px; */
+    /* text-align: justify; */
+    
+    
+
+/* }
+.qr-content>.para2{
+    font-size: 15px;
+    margin-top: 17px;
+    font-weight: 300;
+    text-align: center;
+    text-wrap:wrap;
+    color: hsl(216, 15%, 48%);
+}
+
+.attribution{
+    margin-top: 50px;
+} */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: outfit;
+    /* background-color: hsl(0, 0%, 100%); */
+}
+
+body{
+    background-color: hsl(212, 45%, 89%);
+    width: 100%; /* Change width to 100% for responsiveness */
+}
+
+.card{
+    width: 320px;
+    height: 500px;
+    border-radius: 20px;
+    padding: 17px 17px 0px 17px;
+    background-color: hsl(0, 0%, 100%);
+    margin: auto;
+    margin-top: 15%;
+}
+.qr-img>img{
+    width: 288px;
+    height: 288px;
+    border-radius: 10px;
+}
+.qr-content{
+    font-size: 20px;
+    margin: auto;
+    margin-top: 30px;
+    width: 250px;
+    font-weight: 900;
+    color: hsl(218, 44%, 22%);
+    text-align: justify;
+}
+.qr-content>.para2{
+    font-size: 15px;
+    margin-top: 17px;
+    font-weight: 300;
+    text-align: center;
+    text-wrap: wrap;
+    color: hsl(216, 15%, 48%);
+}
+
+.attribution{
+    margin-top: 50px;
+}
+
+/* Mobile styles (up to 375px) */
+@media (max-width: 375px) {
+    .card {
+        width: 100%;
+        height: auto;
+        margin-top: 10%;
+    }
+
+    .qr-img>img {
+        width: 100%;
+        height: auto;
+    }
+
+    .qr-content {
+        font-size: 18px;
+        width: auto;
+    }
+
+    .qr-content>.para2 {
+        font-size: 14px;
+    }
+}
+
+/* Desktop styles (1440px and above) */
+@media (min-width: 1440px) {
+    body {
+        width: 1440px;
+        margin: auto;
+    }
+
+    .card {
+        width: 400px;
+        height: 550px;
+        margin-top: 10%;
+    }
+
+    .qr-img>img {
+        width: 350px;
+        height: 350px;
+    }
+
+    .qr-content {
+        font-size: 22px;
+        width: 300px;
+    }
+
+    .qr-content>.para2 {
+        font-size: 16px;
+    }
+}
+
+
+
+
